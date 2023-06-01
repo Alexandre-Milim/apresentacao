@@ -1,0 +1,413 @@
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+input{
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #000000e8;        /* color of the tracking area */
+  }
+
+.header{ 
+
+    background-color: #000000e8;
+
+}
+.button-spacing {
+    margin-right: 10px;
+}
+.button-borders a {
+
+    padding: 50px;
+}
+
+/*para rolar o site todo até chegar na página*/
+html {
+    scroll-behavior: smooth;
+}
+
+#titulo{
+    margin-left: 43px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,103px);
+
+}
+
+#titulo2{
+    font-size: 43px;
+    color: white;
+}
+
+#btn-sair {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.header img{
+    border-radius: 12px;
+    width: 180px;
+    height: 100px;
+}
+
+.headercima{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+   
+.pesquisa input[type="text"] {
+    padding-left: 30px; /* deixe um espaço para o ícone */
+    background-image: url(img/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 5px 50%; /* posição do ícone */
+    background-size: 20px 20px; /* tamanho do ícone */
+    border: none; /* remova a borda padrão do input */
+    border-radius: 15px; /* adicione bordas arredondadas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* adicione uma sombra */
+    width: 300px; /* defina a largura do input */
+    height: 40px; /* defina a altura do input */
+    font-size: 13px; /* defina o tamanho da fonte */
+    color: #cacaca; /* defina a cor do texto */
+}
+
+.ofertas .titulo .titulo2{
+    background-color: #000000e8;
+}
+
+.flex{
+    background-color: #000000e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 30px;
+}
+ 
+.titulo{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #000000e8;
+}
+
+.fritadeira , .camera, .laptop , .cadeira, .meias{
+    padding: 10px;
+    
+}
+
+.verclaro{
+    color: #4DB68A
+}
+
+.cinza{
+    color: #383838;
+}
+
+.descontos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #000000e8;
+    height: calc(100% + 21px);
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 0.2px;
+    background-color: #000000e8;
+}
+
+.ofertas img{
+    width: 200px;
+    height: 150px;
+}
+.mais{
+    text-align: center;
+    
+    color: #4DB68A;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #000000e8;
+    border-radius: 5px;
+    
+}
+
+.footer{
+    background-color: #000000e8;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding: 30px;
+    background-image: url(../SenaiLivre/img/rodape.png);
+    background-repeat: no-repeat;
+    background-position: -20vh;
+    font-size: 18px;
+
+}
+
+.btn {
+    width: 184px;
+    height: 40px;
+    margin: 0.5em;
+    background: rgba(42, 247, 127, 0.74);
+    color: rgba(255, 255, 255, 0.849);
+    border: none;
+    border-radius: 0.625em;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#btn-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   }
+.headerlogin{
+    background-color: #000000e8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+   } 
+.headerlogin img{
+    width: 100px;
+}
+
+#aii {
+    position: relative;
+}
+
+#aii .form-sem-cachorro {
+    z-index: 9;
+    position: relative;
+}
+
+#aii .fundo{
+    background-color: #000000e8;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% + 0px);
+    z-index: 5;
+}
+
+main #form #form-texto{
+    text-align: center;
+    padding: 60px;
+}
+main #form #form-formulario form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+main #form #form-formulario form input{
+    /* para o texto ficar por cima do formulário */
+    display: block;
+    padding: 8px;
+    border: none;
+
+    /* para tirar a borda quando clica */
+    outline: none;
+
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    /* para mudar o comprimento do formulário */
+    width: 300px;
+}
+
+.hamblogin{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.mais{
+    background-color: #000000e8;
+
+}
+
+#aiiiv{
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
+#zedamanga{
+    background-color: #000000e8;
+}
+
+#tomata{
+    background-color: #000000e8;
+}
+
+main .mae{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.filho1{
+    background-color: #1E1E2D;
+    height: 150vh;
+}
+
+.filho1 h6{
+    color: white;
+}
+
+main .mae .filho1 .escrita .painelc{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .usuario{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .myconta{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .segury{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .corp{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .esport{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .academy{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .relaty{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .costumy{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae .filho1 .escrita .alerty{
+    display: flex;
+    padding: 6px;
+}
+
+main .mae h6{
+    margin-left: 10px;
+}
+
+.imglogo{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+/*-------------------------MEIO DA DASHBOARD--------------------------*/
+
+ main .divfilhos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 55px;
+    gap: 20px;
+ }
+
+ .textdash{
+    margin: 35px;
+ }
+
+ .textdash p{
+    margin: 9px;
+    color: dimgray;
+ }
+
+ .mae2 .divfilhos .filho2 .filho3 .filho4 .filho5{
+    border-radius: 30px;
+ }
+
+ .divfilhos{
+    justify-items: center;
+ }
+
+ .filho{
+    border: 4px solid grey;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+ }
+ .filho i{
+    font-size: 3em;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+ }
+
+ .filho h4{
+    margin: 10px;
+ }
+
+ .filho p{
+    margin: 5px;
+ }
+ .input {
+
+    width: 310px;
+    background-color: #8a8a8a14;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #323235;
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  input:hover {
+    outline: 1px solid lightgrey;
+  }
+
