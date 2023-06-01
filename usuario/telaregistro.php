@@ -27,22 +27,22 @@
             <div id="form-formulario">
                 <form action="" method="POST">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" required placeholder="Informe seu nome">
+                    <input type="text" name="nome" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required placeholder="Informe seu nome">
 
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" required placeholder="Informe seu E-mail">
+                    <input type="email" name="email" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required placeholder="Informe seu E-mail">
 
                     <label for="telefone">Telefone</label>
-                    <input type="text" name="telefone" required placeholder="Informe seu telefone">
+                    <input type="text" name="telefone" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required placeholder="Informe seu telefone">
 
                     <label for="cidade">Cidade</label>
-                    <input type="text" name="cidade" required placeholder="Informe sua cidade">
+                    <input type="text" name="cidade" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required placeholder="Informe sua cidade">
 
                     <label for="login">Login</label>
-                    <input type="text" name="login" required placeholder="Informe seu login">
+                    <input type="text" name="login" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required placeholder="Informe seu login">
 
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" required placeholder="Informe sua senha">
+                    <input type="password" name="senha" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" required placeholder="Informe sua senha">
 
                     <div class="form-formulario-registrar-se">
                         <button id="cadastrar" type="submit" class="btn button-spacing">Registrar-se</button>
