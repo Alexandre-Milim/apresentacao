@@ -14,6 +14,7 @@
     <title>index</title>
     <style>
         body {
+            background-color: #000000;
             display: flex;
             justify-content: center;
             align-items: center;
