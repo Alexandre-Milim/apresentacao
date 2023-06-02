@@ -27,7 +27,7 @@
             text-align: center;
             border: 4px solid rgb(57 252 138 / 83%);
             padding: 70px;
-            background: rgb(95 100 97 / 20%);
+            background: rgb(123 219 161 / 22%);
             display: flex;
             flex-direction: column;
             align-items: center;
